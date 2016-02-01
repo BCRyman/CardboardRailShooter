@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{B716C63A-F45D-8976-417B-3558300C179F}") = "CardboardRailShooter", "Assembly-CSharp.csproj", "{106BA003-A551-F173-6D11-E88E4E8FD21A}"
+EndProject
+Project("{B716C63A-F45D-8976-417B-3558300C179F}") = "CardboardRailShooter", "Assembly-CSharp-Editor-firstpass.csproj", "{74ED87B5-40B6-EAE3-A300-A64AB23580B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{106BA003-A551-F173-6D11-E88E4E8FD21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106BA003-A551-F173-6D11-E88E4E8FD21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106BA003-A551-F173-6D11-E88E4E8FD21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106BA003-A551-F173-6D11-E88E4E8FD21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
