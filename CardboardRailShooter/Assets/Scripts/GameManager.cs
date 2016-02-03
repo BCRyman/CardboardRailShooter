@@ -27,15 +27,24 @@ public class GameManager : MonoBehaviour {
     {
         get{return inputManager;}
     }
+    
+    private RailManager railManager;
+    public RailManager RailManager
+    {
+        get {return railManager;}
+    }
+    
     private void Awake()
     {
         Instance = this;
-        Cursor.lockState = CursorLockMode.Locked;
+       // Cursor.lockState = CursorLockMode.Locked;
         inputManager = GetComponent<InputManager>();
+        railManager = GetComponent<RailManager>();
     }
     
     private void Update()
     {
-        inputManager.Update();
+        inputManager.InputUpdate();
+        railManager.RailUpdate();
     }
 }
