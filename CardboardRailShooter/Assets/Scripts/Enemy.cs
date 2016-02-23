@@ -4,11 +4,12 @@ using System.Collections;
 public class Enemy : MonoBehaviour {
 
     [SerializeField]
-    int health;
+    int health, enemyValue;
     
     
     void OnCollisionEnter(Collision col)
     {
+        Debug.Log("Yo");
         if(col.gameObject.tag == "Bullet")
         {
             ChangeHealth(-1);
@@ -21,7 +22,9 @@ public class Enemy : MonoBehaviour {
         health += amount;
         if (health <= 0)
         {
+            GameManager.Instance.ScoreManager.CurrentScore += enemyValue;
             Destroy(this.gameObject);
+            
         }
     }
 }

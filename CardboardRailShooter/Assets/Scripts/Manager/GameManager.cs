@@ -39,6 +39,12 @@ public class GameManager : MonoBehaviour {
     {
         get{return uiManager;}
     }
+    
+    private ScoreManager scoreManager;
+    public ScoreManager ScoreManager
+    {
+        get{return scoreManager;}
+    }
     [SerializeField]
     bool paused = false;
     public bool Paused
@@ -54,6 +60,10 @@ public class GameManager : MonoBehaviour {
         inputManager = GetComponent<InputManager>();
         railManager = GetComponent<RailManager>();
         uiManager = GetComponent<UIManager>();
+        scoreManager = GetComponent<ScoreManager>();
+        
+        //Debug
+        scoreManager.CurrentScore = 0;
     }
     
     private void Update()

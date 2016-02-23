@@ -78,7 +78,7 @@ public class ObjectPooler : MonoBehaviour {
         {
             if(!tempList[i].activeInHierarchy)
             {
-                Debug.Log("ItemFound");
+              //  Debug.Log("ItemFound");
                 tempList[i].SetActive(true);
                 tempObj = tempList[i];
                 tempObj.transform.position = pos;

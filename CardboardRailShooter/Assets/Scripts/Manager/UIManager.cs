@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class UIManager : MonoBehaviour {
 
     [SerializeField]
     GameObject pauseMenu;
+    
+    [SerializeField]
+    Text scoreText;
     public void PauseGame()
     {
         GameManager.Instance.Paused = true;
@@ -27,5 +30,10 @@ public class UIManager : MonoBehaviour {
         {
             //show game over screen
         }
+    }
+    
+    public void UpdateScoreText(int val)
+    {
+        scoreText.text = "Score: "+val;
     }
 }

@@ -53,9 +53,10 @@
      <Compile Include="Assets\Scripts\Manager\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
      <Compile Include="Assets\Scripts\Manager\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\RailManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
      <Compile Include="Assets\Scripts\ObjectPooler.cs" />
-     <Compile Include="Assets\Scripts\RailManager.cs" />
      <Compile Include="Assets\Scripts\RailPoint.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />
  <Reference Include="UnityEngine.UI">
