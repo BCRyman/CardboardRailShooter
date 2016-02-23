@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour {
         if(col.gameObject.tag == "Bullet")
         {
             ChangeHealth(-1);
+            ObjectPooler.Instance.ReleaseObject(col.gameObject);
         }
     }
     

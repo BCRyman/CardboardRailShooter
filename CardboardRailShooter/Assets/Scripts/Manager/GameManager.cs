@@ -34,17 +34,38 @@ public class GameManager : MonoBehaviour {
         get {return railManager;}
     }
     
+    private UIManager uiManager;
+    public UIManager UIManager
+    {
+        get{return uiManager;}
+    }
+    [SerializeField]
+    bool paused = false;
+    public bool Paused
+    {
+        get{return paused;}
+        set{paused = value;}
+    }
     private void Awake()
     {
         Instance = this;
-       // Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
         inputManager = GetComponent<InputManager>();
         railManager = GetComponent<RailManager>();
+        uiManager = GetComponent<UIManager>();
     }
     
     private void Update()
     {
-        inputManager.InputUpdate();
-        railManager.RailUpdate();
+        Cursor.lockState = CursorLockMode.Locked;
+        if(!paused)
+        {
+           
+            railManager.RailUpdate();
+        }
+         inputManager.InputUpdate();
     }
+    
+   
 }
