@@ -4,6 +4,8 @@ Project("{B716C63A-F45D-8976-417B-3558300C179F}") = "CardboardRailShooter", "Ass
 EndProject
 Project("{B716C63A-F45D-8976-417B-3558300C179F}") = "CardboardRailShooter", "Assembly-CSharp-Editor-firstpass.csproj", "{74ED87B5-40B6-EAE3-A300-A64AB23580B3}"
 EndProject
+Project("{B716C63A-F45D-8976-417B-3558300C179F}") = "CardboardRailShooter", "Assembly-CSharp-Editor.csproj", "{55353953-B579-A421-F2BB-71EA559F17A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74ED87B5-40B6-EAE3-A300-A64AB23580B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55353953-B579-A421-F2BB-71EA559F17A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55353953-B579-A421-F2BB-71EA559F17A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55353953-B579-A421-F2BB-71EA559F17A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55353953-B579-A421-F2BB-71EA559F17A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj

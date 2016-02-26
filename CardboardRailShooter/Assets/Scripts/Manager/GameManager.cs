@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour {
            
             railManager.RailUpdate();
         }
-         inputManager.InputUpdate();
+        inputManager.InputUpdate();
     }
     
    
